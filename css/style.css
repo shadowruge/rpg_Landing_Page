@@ -34,6 +34,8 @@ a{
 
 
 }
+
+
 section{
 
     width: 01em;
@@ -52,7 +54,7 @@ section>.polaroid{
 }
 
 .polaroid>img{
-
+border-radius: 50%;
     text-align: center;
     width: 90px;
     height: 90px;
