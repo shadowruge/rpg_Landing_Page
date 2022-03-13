@@ -15,6 +15,7 @@ nav{
     background-color: aqua;
     border-radius: 10px; 
     
+    
 }
 
 nav>img{
@@ -26,6 +27,7 @@ nav>img{
 a{
    
     padding: 5px;
+    margin-top: 12px;
     display: flex;
     justify-content: space-between;
     float: right;
@@ -36,38 +38,62 @@ a{
 }
 
 
-section{
+.container{
 
-    width: 01em;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;  
+    align-items: center;
+    justify-content: center;
+
     
     
 }
 
-section>.polaroid{
-    margin-top: 20px;
-    margin-left: 10px;
+p{
+    margin: auto;
     text-align: center;
-
 }
-
-.polaroid>img{
-border-radius: 50%;
-    text-align: center;
+.cavaleiro img{
+   margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
     width: 90px;
     height: 90px;
+    background: linear-gradient(-45deg, #788cff, #b4c8ff);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
 }
 
+.bruxo img{
+     
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(-45deg, #788cff, #b4c8ff);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.elfo img{
+     margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(-45deg, #788cff, #b4c8ff);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+
+
 .login{
-    width: 16em;
+    margin: 0 auto; 
+    margin-top: 20px;   
     max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
